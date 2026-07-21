@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="Physical Calculator banner">
+  <img src="images/banner.png" alt="Physical Calculator banner" width="100%">
 </p>
 
 # Physical Calculator
@@ -47,16 +47,36 @@ The calculator includes formulas related to electromagnetism, such as:
 
 ## Screenshots
 
-<p align="center">
-  <img src="images/login.png" width="220" alt="Login screen">
-  <img src="images/register.png" width="220" alt="Registration screen">
-  <img src="images/calculator.png" width="220" alt="Calculator screen">
-</p>
+## Screenshots
+
+### User access and calculator
 
 <p align="center">
-  <img src="images/quiz.png" width="220" alt="Quiz screen">
-  <img src="images/scores.png" width="220" alt="Score history">
-  <img src="images/admin.png" width="220" alt="Administration panel">
+  <img src="images/login.png" width="220" alt="Login screen">
+  <img src="images/registro.png" width="220" alt="User registration">
+  <img src="images/calculadora.png" width="220" alt="Physics calculator">
+</p>
+
+### Results and quizzes
+
+<p align="center">
+  <img src="images/resultado.png" width="320" alt="Calculation result">
+  <img src="images/cuestionario.png" width="520" alt="Interactive quiz">
+</p>
+
+### Progress and profile
+
+<p align="center">
+  <img src="images/puntajes.png" width="220" alt="Score history">
+  <img src="images/perfil.png" width="220" alt="User profile">
+</p>
+
+### Teacher administration
+
+<p align="center">
+  <img src="images/admin_usuarios.png" width="220" alt="User administration">
+  <img src="images/admin_preguntas.png" width="220" alt="Question administration">
+  <img src="images/admin_cuestionarios.png" width="220" alt="Quiz administration">
 </p>
 
 ## Project structure
