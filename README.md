@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/banner.png" alt="Physical Calculator banner" width="100%">
+  <img src="imagenes/banner.png" alt="Physical Calculator banner" width="100%">
 </p>
 
 # Physical Calculator
@@ -52,31 +52,31 @@ The calculator includes formulas related to electromagnetism, such as:
 ### User access and calculator
 
 <p align="center">
-  <img src="images/login.png" width="220" alt="Login screen">
-  <img src="images/registro.png" width="220" alt="User registration">
-  <img src="images/calculadora.png" width="220" alt="Physics calculator">
+  <img src="imagenes/login.png" width="220" alt="Login screen">
+  <img src="imagenes/registro.png" width="220" alt="User registration">
+  <img src="imagenes/calculadora.png" width="220" alt="Physics calculator">
 </p>
 
 ### Results and quizzes
 
 <p align="center">
-  <img src="images/resultado.png" width="320" alt="Calculation result">
-  <img src="images/cuestionario.png" width="520" alt="Interactive quiz">
+  <img src="imagenes/resultado.png" width="320" alt="Calculation result">
+  <img src="imagenes/cuestionario.png" width="520" alt="Interactive quiz">
 </p>
 
 ### Progress and profile
 
 <p align="center">
-  <img src="images/puntajes.png" width="220" alt="Score history">
-  <img src="images/perfil.png" width="220" alt="User profile">
+  <img src="imagenes/puntajes.png" width="220" alt="Score history">
+  <img src="imagenes/perfil.png" width="220" alt="User profile">
 </p>
 
 ### Teacher administration
 
 <p align="center">
-  <img src="images/admin_usuarios.png" width="220" alt="User administration">
-  <img src="images/admin_preguntas.png" width="220" alt="Question administration">
-  <img src="images/admin_cuestionarios.png" width="220" alt="Quiz administration">
+  <img src="imagenes/admin_usuarios.png" width="220" alt="User administration">
+  <img src="imagenes/admin_preguntas.png" width="220" alt="Question administration">
+  <img src="imagenes/admin_cuestionarios.png" width="220" alt="Quiz administration">
 </p>
 
 ## Project structure
