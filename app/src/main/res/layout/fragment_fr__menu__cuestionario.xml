@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#DDE2E8"
+    tools:context=".fragmentos.fr_Menu_Cuestionario">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DDE2E8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="#C6A828"
+                android:text="Pregunta:" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:textColor="#C6A828"
+            android:id="@+id/xlstPreguntas"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/xrgpResp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:buttonTint="#52A0C7"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/xrdbR1"
+                    android:textColor="#C6A828"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:buttonTint="#52A0C7"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/xrdbR2"
+                    android:textColor="#C6A828"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:buttonTint="#52A0C7"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/xrdbR3"
+                    android:textColor="#C6A828"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:buttonTint="#52A0C7"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/xrdbR4"
+                    android:textColor="#C6A828"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RadioButton" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_marginStart="10dp"
+                android:id="@+id/xbtnIniC"
+                android:backgroundTint="#BADAE9"
+                android:textColor="#52A0C7"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Iniciar" />
+
+            <Button
+                android:layout_marginStart="10dp"
+                android:id="@+id/xbtnSigR"
+                android:backgroundTint="#BADAE9"
+                android:textColor="#52A0C7"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Siguiente" />
+
+            <Button
+                android:layout_marginStart="10dp"
+                android:id="@+id/xbtnValR"
+                android:backgroundTint="#BADAE9"
+                android:textColor="#52A0C7"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Validar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

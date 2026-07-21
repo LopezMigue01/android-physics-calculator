@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@drawable/calculadora"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/nav_cuestionario"
+            android:icon="@drawable/pregunta"
+            android:title="Cuestionario" />
+        <item
+            android:id="@+id/titulo_comunicacion"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:titleTextColor="#52A0C7"
+            android:title="Comunicacion" />
+        <item
+            android:id="@+id/nav_contacto"
+            android:icon="@drawable/contacto"
+            android:title="Contacto" />
+        <item
+            android:id="@+id/nav_compartir"
+            android:icon="@drawable/share"
+            android:title="Compartir" />
+        <item
+            android:id="@+id/titulo_red"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:titleTextColor="#52A0C7"
+            android:title="Redes Sociales" />
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/insta"
+            android:title="Instagram" />
+        <item
+            android:id="@+id/titulo_acerca"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:titleTextColor="#52A0C7"
+            android:title="Acerca de" />
+        <item
+            android:id="@+id/nav_informacion"
+            android:icon="@drawable/info"
+            android:title="Informacion" />
+    </group>
+</menu>
